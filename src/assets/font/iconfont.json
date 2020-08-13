@@ -1,0 +1,121 @@
+{
+  "id": "2000712",
+  "name": "admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "vue-admin",
+  "glyphs": [
+    {
+      "icon_id": "3325509",
+      "name": "运动",
+      "font_class": "paobu_fuzhi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "5797803",
+      "name": "权限管理",
+      "font_class": "quanxian-selected",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "6752076",
+      "name": "用户列表",
+      "font_class": "yonghuliebiao",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "8690447",
+      "name": "修改权限",
+      "font_class": "xiugaiquanxian",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "10807222",
+      "name": "3_商品模块",
+      "font_class": "_shangpinmokuai",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "13185049",
+      "name": "卡路里",
+      "font_class": "kaluli",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "13919276",
+      "name": "业务领域-营养配餐",
+      "font_class": "yewulingyu-yingyangpeican",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "13945526",
+      "name": "科普",
+      "font_class": "kepu",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "14939263",
+      "name": "运动",
+      "font_class": "yundong",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "8685873",
+      "name": "退出",
+      "font_class": "tuichu",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "1802670",
+      "name": "商品",
+      "font_class": "shangpin",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "3390363",
+      "name": "管理员",
+      "font_class": "admin",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "4510919",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "13905011",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "15685604",
+      "name": "表单 列表-03",
+      "font_class": "biaodanliebiao-03",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "8289295",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
