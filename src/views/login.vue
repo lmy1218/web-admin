@@ -7,13 +7,13 @@
                 <img src="@/assets/logo.jpg" alt="">
             </div>
             <!-- 表单 -->
-            <el-form ref="loginFormRef"  :rules="loginRules" :model="loginParams" class="login_form" label-width="0">
+            <el-form ref="loginFormRef"  :rules="loginRules" :model="loginParams" class="login_form" label-width="100px">
                 <!-- 用户名 -->
-                <el-form-item  prop="username">
+                <el-form-item label="用户" prop="username">
                     <el-input v-model="loginParams.username" placeholder="请输入用户名" prefix-icon="iconfont icondenglu" ></el-input>
                 </el-form-item>
                 <!-- 密码 -->
-                <el-form-item prop="password" >
+                <el-form-item label="密码"  prop="password" >
                     <el-input type="password" v-model="loginParams.password" placeholder="请输入密码" prefix-icon="iconfont iconmima" ></el-input>
                 </el-form-item>
                 <!-- 提交按钮 -->
@@ -67,19 +67,20 @@ export default {
                     const res = await this.$http.post("/login", this.loginParams);
                     // 判断是否访问成功
                     if(res.status == 200) {
-                        this.$message.success("操作成功！");
+                        this.$message.success("登录成功！");
                         // 存入用户信息
                         window.sessionStorage.setItem("user", res.data);
                         // 跳转到主页
                         this.$router.push({
                             path: "/home"
-                        });
-                        
+                        });   
+                    } else if (res.status == 204){
+                        this.$message.error("用户名或密码错误！");
+                        return;
                     } else {
-                        this.$message.error("操作失败！");
-                    }
-
-
+                        this.$message.error("登录失败！");
+                        return;
+                    }                                 
             })
         }
     },

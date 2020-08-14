@@ -6,6 +6,13 @@
   "description": "vue-admin",
   "glyphs": [
     {
+      "icon_id": "2506215",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
       "icon_id": "3325509",
       "name": "运动",
       "font_class": "paobu_fuzhi",

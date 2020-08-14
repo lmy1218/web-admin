@@ -5,7 +5,7 @@ import login from '@/views/login.vue'
 import home from '@/views/home.vue'
 import welcome from '@/components/welcome.vue'
 import userlist from '@/components/userlist.vue'
-import edituser from '@/components/edituser.vue'
+import rolelist from '@/components/rolelist.vue'
 
 
 Vue.use(VueRouter)
@@ -39,7 +39,7 @@ Vue.use(VueRouter)
         {
           path: "/rights",
           name: "rights",
-          component: edituser
+          component: rolelist
         }
       ]
     }
